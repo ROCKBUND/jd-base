@@ -30,7 +30,7 @@ services:
       - ./jd2/config:/jd/config
       - ./jd2/log:/jd/log
     ports:
-      - 5679:5678
+      - 5679:5679
     environment: 
       - ENABLE_HANGUP=true            # 是否在启动容器时自动启动挂机程序
       - ENABLE_WEB_PANEL=true         # 是否在启动容器时自动启动控制面板
@@ -47,7 +47,7 @@ services:
       - ./jd3/config:/jd/config
       - ./jd3/log:/jd/log
     ports:
-      - 5680:5678
+      - 5680:5680
     environment: 
       - ENABLE_HANGUP=true            # 是否在启动容器时自动启动挂机程序
       - ENABLE_WEB_PANEL=true         # 是否在启动容器时自动启动控制面板
